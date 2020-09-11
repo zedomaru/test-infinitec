@@ -8,7 +8,7 @@ tugas 1:
 
 manipulai nilai dari test1, agar menghasilkan object seperti dibawah ini
 
-{ field: '', operator: '', value: '' }
+[{ field: '', operator: '', value: '' }, ....]
 
 dengan ketentuan sebagai berikut:
 
@@ -19,6 +19,8 @@ dengan ketentuan sebagai berikut:
   contoh lainnya "name_eq" = "eq", "email" = "cont", "id_in" = "in"
 
 - value dari property "value" adalah value dari masing2 propert test1
+
+- Abaikan apabila value dari masing2 property kosong (null, undefined, false dll)
 
 Silahkan cek console.ss.png dan /test-results/index.js untuk contoh lebih lanjut.
 
