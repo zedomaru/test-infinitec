@@ -1,0 +1,47 @@
+Petunjuk:
+
+Silahkan lihat folder /test dan open file index.js,
+dalam file index.js terdapat 2 konstanta test1 dan test2
+
+tugas 1:
+========================================================
+
+manipulai nilai dari test1, agar menghasilkan object seperti dibawah ini
+
+{ field: '', operator: '', value: '' }
+
+dengan ketentuan sebagai berikut:
+
+- value dari property "field" adalah key dari property test1
+
+- value dari property "operator" adalah hasil split dari property "field"
+  sebagai contoh "name_eq" maka menghasilkan nilai "eq", dengan nilai default "cont"
+  contoh lainnya "name_eq" = "eq", "email" = "cont", "id_in" = "in"
+
+- value dari property "value" adalah value dari masing2 propert test1
+
+Silahkan cek console.ss.png dan /test-results/index.js untuk contoh lebih lanjut.
+
+
+tugas 2:
+========================================================
+
+manipulai nilai dari test2, agar menghasilkan object seperti dibawah ini
+
+{ key: [...str, ...str, ...] }
+
+dengan ketentuan sebagai berikut:
+
+- property "key" adalah value dari property "property" dalam test2
+- value dari "key" memiliki nilai array yang didapat dari value "constraints" dalam test2
+
+Silahkan cek console.ss.png dan /test-results/index.js untuk contoh lebih lanjut.
+
+
+Kami tidak membatasi calon anggota tim kami menggunakan metode apapun untuk
+menyelesaikan tugas diatas, silahkan gunakan package apapun yang menjadi pegangan anda.
+
+.....
+readable, reusable kode menjadi nilai plus untuk kami.
+
+terima kasih.
